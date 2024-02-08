@@ -12,7 +12,7 @@ import tempfile
 
 user_api_key = st.sidebar.text_input(
     label="#### Your OpenAI API key 👇",
-    placeholder="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",
+    placeholder="",
     type="password")
 
 uploaded_file = st.sidebar.file_uploader("upload", type="csv")
